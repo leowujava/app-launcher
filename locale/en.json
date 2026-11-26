@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "App launcher",
+    "description": "Reads the workspace VS Code launch.json and runs its configurations from the right sidebar: java configurations run through mvn spring-boot:run in the Maven module that owns mainClass, node configurations run runtimeExecutable/runtimeArgs (for example npm run dev), and shell configurations run a command string. Start, stop, restart, tail logs and stop all are available to the panel, the /launch slash command and the launcher agent tool. Instances are tracked per plugin activation; apps still running after a host restart are detected by working directory as 'external' and can be stopped, and a surviving application process is re-adopted when its wrapper (mvn/npm) dies, so it always stays stoppable and restartable."
+  }
+}

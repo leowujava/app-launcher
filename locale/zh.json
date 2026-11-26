@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "应用启动管理",
+    "description": "读取工作区中的 VS Code launch.json,在右侧边栏列出并启动其中的应用配置:Java 配置通过 mvn spring-boot:run 在 mainClass 所属模块中启动,Node 配置按 runtimeExecutable/runtimeArgs 启动(例如 npm run dev),shell 配置执行命令字符串。支持启动、停止、重启、日志尾部、全部停止,以及 /launch 命令和 launcher 智能体工具;实例按插件激活周期跟踪;宿主重启后仍在运行的应用会按工作目录自动识别为「外部运行」并可直接停止,包装进程(mvn/npm)意外退出时存活的应用进程会被自动接管,始终可停止、可重启。"
+  }
+}
